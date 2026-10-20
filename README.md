@@ -56,3 +56,35 @@ validamos el nginx para comprobar que no haya ningun fallo
 
 ![](</SRI_Bosco/ut1/evidencias/comprobacion.png>)
 comprobamos que entre al servidor como es debido
+
+## Apartado 3
+
+en este apartado alojaremos 3 webs en nuestro servidor, alojaremos una web principal, un blog, y una intranet.
+
+![](</SRI_Bosco/ut1/evidencias/web principal 1.png>)
+![](</SRI_Bosco/ut1/evidencias/web principal 2.png>)
+![](</SRI_Bosco/ut1/evidencias/web principal 3.png>)
+Empezaremos con la creacion de la Web principal paso a paso
+
+![](</SRI_Bosco/ut1/evidencias/blog 1.png>)
+![](</SRI_Bosco/ut1/evidencias/blog 2.png>)
+![](</SRI_Bosco/ut1/evidencias/blog 3.png>)
+Seguimos creando y configurando la web del blog
+
+![](</SRI_Bosco/ut1/evidencias/intranet 1.png>)
+![](</SRI_Bosco/ut1/evidencias/intranet 2.png>)
+![](</SRI_Bosco/ut1/evidencias/intranet 3.png>)
+y por ultimo la intranet
+
+![](</SRI_Bosco/ut1/evidencias/encender.png>)
+ahora vamos a encender los sitios
+para deshabilitar el sitio temporalmente sin borrar su configuracion simplemente se borrara el archivo del apartado en enable con un "rm", de esta forma siempre quedara la configuracion en available
+
+![](</SRI_Bosco/ut1/evidencias/validar 2.png>)
+aplicamos los cambios y reiniciamos el servicio
+
+cambiamos las opciones del archivo hosts y comprobamos si las paginas web nos funcionan
+Pagina Web:
+![](</SRI_Bosco/ut1/evidencias/prueba 1.png>)
+Blog:
+![](</SRI_Bosco/ut1/evidencias/prueba 2.png>)
