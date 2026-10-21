@@ -1,90 +1,108 @@
 # SRI_Bosco
-Aqui se documentará y se expondran las evidencias del trabajo de la UT1
+Aqui se documentará y se expondran las evidencias del trabajo de la UT1.
 
 ## Apartado 1 
-![](</SRI_Bosco/ut1/evidencias/Crear VPC.png>)
-crearemos la vpc con las especificaciones necesarias
+![](<ut1/Evidencias/Crear VPC.png>)
+Crearemos la vpc con las especificaciones necesarias.
 
-![](</SRI_Bosco/ut1/evidencias/Crear Subred.png>)
-creamos la subred en base a la vpc que hemos creado anteriormente
+![](<ut1/Evidencias/Crear Subred.png>)
+Creamos la subred en base a la vpc que hemos creado anteriormente.
 
-![](</SRI_Bosco/ut1/evidencias/IPV4.png>)
-habilitaremos la opcion de asignacion automática de IPV4
+![](<ut1/Evidencias/IPV4.png>)
+Habilitaremos la opcion de asignacion automática de IPV4.
 
-![](</SRI_Bosco/ut1/evidencias/igw.png>)
-creamos la puerta de enlace a internet
+![](<ut1/Evidencias/igw.png>)
+Creamos la puerta de enlace a internet.
 
-![](</SRI_Bosco/ut1/evidencias/asignarigw.png>)
-una vez creada la añadimos a la VPC que creamos anteriormente
+![](<ut1/Evidencias/asignarigw.png>)
+Una vez creada la añadimos a la VPC que creamos anteriormente.
 
-![](</SRI_Bosco/ut1/evidencias/rt.png>)
-crearemos una tabla de rutas para la VPC
+![](<ut1/Evidencias/rt.png>)
+Crearemos una tabla de rutas para la VPC.
 
-![](</SRI_Bosco/ut1/evidencias/asignarrt.png>)
-ya creada la tabla de rutas interconectaremos nuestra puerta de enlace con internet
+![](<ut1/Evidencias/asignarrt.png>)
+Ya creada la tabla de rutas interconectaremos nuestra puerta de enlace con internet.
 
-![](</SRI_Bosco/ut1/evidencias/sg2.png>)
-configuraremos el grupo de seguridad para nuestra red, y lo creamos
+![](<ut1/Evidencias/sg2.png>)
+Configuraremos el grupo de seguridad para nuestra red, y lo creamos.
 
-configuramos la instancia de la siguiente manera:
-![](</SRI_Bosco/ut1/evidencias/nombre.png>)
-![](</SRI_Bosco/ut1/evidencias/sistema.png>)
-![](</SRI_Bosco/ut1/evidencias/tipo.png>)
-![](</SRI_Bosco/ut1/evidencias/claves.png>)
-![](</SRI_Bosco/ut1/evidencias/red.png>)
-y lanzamos la instancia
+Configuramos la instancia de la siguiente manera:
+![](<ut1/Evidencias/nombre.png>)
+![](<ut1/Evidencias/sistema.png>)
+![](<ut1/Evidencias/tipo.png>)
+![](<ut1/Evidencias/claves.png>)
+![](<ut1/Evidencias/red.png>)
+Y lanzamos la instancia.
 
-![](</SRI_Bosco/ut1/evidencias/hora.png>)
-una vez hayamos iniciando la instancia entraremos en la maquina para actualizar los paquetes necesarios y ponerla en horario de "Madrid"
+![](<ut1/Evidencias/hora.png>)
+Una vez hayamos iniciando la instancia entraremos en la maquina para actualizar los paquetes necesarios y ponerla en horario de "Madrid".
 
 ## Apartado 2
-![](</SRI_Bosco/ut1/evidencias/nginx.png>)
-primer paso de todos instalamos el servicio nginx
+![](<ut1/Evidencias/nginx.png>)
+Primer paso de todos instalamos el servicio nginx.
 
-![](</SRI_Bosco/ut1/evidencias/oculto.png>)
-entramos al archivo de configuracion de nginx con 'sudo nano /etc/nginx/nginx.conf, y debido a que en el archivo el apartado no aparece añadimos el comando server_token off en el apartado http
+![](<ut1/Evidencias/oculto.png>)
+Entramos al archivo de configuracion de nginx con 'sudo nano /etc/nginx/nginx.conf, y debido a que en el archivo el apartado no aparece añadimos el comando server_token off en el apartado http.
 
-![](</SRI_Bosco/ut1/evidencias/carpeta.png>)
-ya que no tenemos una carpeta propia la crearemos y trabajaremos desde ahi
+![](<ut1/Evidencias/carpeta.png>)
+Ya que no tenemos una carpeta propia la crearemos y trabajaremos desde ahi.
 
-![](</SRI_Bosco/ut1/evidencias/paginaweb.png>)
-![](</SRI_Bosco/ut1/evidencias/archivo.png>)
-una vez creada la web iremos a los archivos de nginx para configurarlo
+![](<ut1/Evidencias/paginaweb.png>)
+![](<ut1/Evidencias/archivo.png>)
+Una vez creada la web iremos a los archivos de nginx para configurarlo.
 
-![](</SRI_Bosco/ut1/evidencias/validar.png>)
-validamos el nginx para comprobar que no haya ningun fallo
+![](<ut1/Evidencias/validar.png>)
+Validamos el nginx para comprobar que no haya ningun fallo.
 
-![](</SRI_Bosco/ut1/evidencias/comprobacion.png>)
-comprobamos que entre al servidor como es debido
+![](<ut1/Evidencias/comprobacion.png>)
+Comprobamos que entre al servidor como es debido.
 
 ## Apartado 3
 
-en este apartado alojaremos 3 webs en nuestro servidor, alojaremos una web principal, un blog, y una intranet.
+En este apartado alojaremos 3 webs en nuestro servidor, alojaremos una web principal, un blog, y una intranet.
 
-![](</SRI_Bosco/ut1/evidencias/web principal 1.png>)
-![](</SRI_Bosco/ut1/evidencias/web principal 2.png>)
-![](</SRI_Bosco/ut1/evidencias/web principal 3.png>)
-Empezaremos con la creacion de la Web principal paso a paso
+![](<ut1/Evidencias/web principal 1.png>)
+![](<ut1/Evidencias/web principal 2.png>)
+![](<ut1/Evidencias/web principal 3.png>)
+Empezaremos con la creacion de la Web principal paso a paso.
 
-![](</SRI_Bosco/ut1/evidencias/blog 1.png>)
-![](</SRI_Bosco/ut1/evidencias/blog 2.png>)
-![](</SRI_Bosco/ut1/evidencias/blog 3.png>)
-Seguimos creando y configurando la web del blog
+![](<ut1/Evidencias/blog 1.png>)
+![](<ut1/Evidencias/blog 2.png>)
+![](<ut1/Evidencias/blog 3.png>)
+Seguimos creando y configurando la web del blog.
 
-![](</SRI_Bosco/ut1/evidencias/intranet 1.png>)
-![](</SRI_Bosco/ut1/evidencias/intranet 2.png>)
-![](</SRI_Bosco/ut1/evidencias/intranet 3.png>)
-y por ultimo la intranet
+![](<ut1/Evidencias/intranet 1.png>)
+![](<ut1/Evidencias/intranet 2.png>)
+![](<ut1/Evidencias/intranet 3.png>)
+Y por ultimo la intranet.
 
-![](</SRI_Bosco/ut1/evidencias/encender.png>)
-ahora vamos a encender los sitios
-para deshabilitar el sitio temporalmente sin borrar su configuracion simplemente se borrara el archivo del apartado en enable con un "rm", de esta forma siempre quedara la configuracion en available
+![](<ut1/Evidencias/encender.png>)
+Ahora vamos a encender los sitios.
+Para deshabilitar el sitio temporalmente sin borrar su configuracion simplemente se borrara el archivo del apartado en enable con un "rm", de esta forma siempre quedara la configuracion en available.
 
-![](</SRI_Bosco/ut1/evidencias/validar 2.png>)
-aplicamos los cambios y reiniciamos el servicio
+![](<ut1/Evidencias/validar 2.png>)
+Aplicamos los cambios y reiniciamos el servicio.
 
-cambiamos las opciones del archivo hosts y comprobamos si las paginas web nos funcionan
+Cambiamos las opciones del archivo hosts y comprobamos si las paginas web nos funcionan.
 Pagina Web:
-![](</SRI_Bosco/ut1/evidencias/prueba 1.png>)
+![](<ut1/Evidencias/prueba 1.png>)
 Blog:
-![](</SRI_Bosco/ut1/evidencias/prueba 2.png>)
+![](<ut1/Evidencias/prueba 2.png>)
+
+## Apartado 4
+
+![](<ut1/Evidencias/php.png>)
+Primero instalaremos el modulo de php. 
+
+![](<ut1/Evidencias/fancy.png>)
+Instalamos el paquete de fancyindex.
+
+![](<ut1/Evidencias/descargas.png>)
+Creamos la carpeta de descargas y en ella 3 archivos.
+
+![](<ut1/Evidencias/hora1.png>)
+![](<ut1/Evidencias/hora2.png>)
+Creamos un archivo para enseñar el dia y la hora.
+
+![](<ut1/Evidencias/index.png>)
+Añadimos la location de "descargas" y la "hora".
