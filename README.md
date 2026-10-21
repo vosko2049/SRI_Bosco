@@ -118,3 +118,20 @@ Añadimos la location de "descargas" y la "hora".
 | **`ngx_http_fancyindex_module`** | Instalado (`apt`) | Genera un listado gráfico e interactivo para directorios. Muestra tamaños legibles (KB, MB) y horas en zona local para la carpeta `/descargas/`. | `location /descargas { }` |
 
 ## Apartado 5
+
+![](<ut1/Evidencias/apache.png>)
+Para hacer este apartado instalaremos el servicio Apache
+
+![](<ut1/Evidencias/usuarios.png>)
+Creamos los usuarios bosco con contraseña usuario@1 y el usuario profesor con contraseña usuario1
+
+Las comprobaciones la he echo en base a mi ip publica de mi ordenador personal, entonces en el archivo de configuracion lo unico que he echo ha sido comentar el apartado "allow" con mi ip publica para que nginx conozca o desconozca a mi ordenador.
+
+Allow sin #:
+![](<ut1/Evidencias/allow1.png>)
+![](<ut1/Evidencias/conexion3.png>)
+
+Allow con #:
+![](<ut1/Evidencias/allow2.png>)
+![](<ut1/Evidencias/conexion1.png>)
+![](<ut1/Evidencias/conexion2.png>)
