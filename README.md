@@ -84,8 +84,10 @@ Para deshabilitar el sitio temporalmente sin borrar su configuracion simplemente
 Aplicamos los cambios y reiniciamos el servicio.
 
 Cambiamos las opciones del archivo hosts y comprobamos si las paginas web nos funcionan.
+
 Pagina Web:
 ![](<ut1/Evidencias/prueba 1.png>)
+
 Blog:
 ![](<ut1/Evidencias/prueba 2.png>)
 
@@ -106,3 +108,13 @@ Creamos un archivo para enseñar el dia y la hora.
 
 ![](<ut1/Evidencias/index.png>)
 Añadimos la location de "descargas" y la "hora".
+
+### Tabla de contenido
+
+| Módulo | Tipo | Descripción y Uso | Bloque de configuración |
+| :--- | :--- | :--- | :--- |
+| **`ngx_http_core_module`** | De serie | Proporciona las directivas principales de Nginx (`server_tokens`, `autoindex`). Permite ocultar la versión del servidor e inhabilitar el listado de directorios por defecto. | `http { }` / `server { }` |
+| **`ngx_http_fastcgi_module`** | De serie | Permite la comunicación por sockets con procesadores FastCGI externos como PHP-FPM para ejecutar archivos dinámicos `.php` (como `hora.php`). | `location ~ \.php$ { }` |
+| **`ngx_http_fancyindex_module`** | Instalado (`apt`) | Genera un listado gráfico e interactivo para directorios. Muestra tamaños legibles (KB, MB) y horas en zona local para la carpeta `/descargas/`. | `location /descargas { }` |
+
+## Apartado 5
