@@ -135,3 +135,28 @@ Allow con #:
 ![](<ut1/Evidencias/allow2.png>)
 ![](<ut1/Evidencias/conexion1.png>)
 ![](<ut1/Evidencias/conexion2.png>)
+
+## Apartado 6
+En este apartado nos encargaremos de registrar los logs de nuestras paginas web, para esto añadiremos un par de lineas en los archivos de configuracion de cada uno.
+
+Pagina web:
+![](<ut1/Evidencias/log1.png>)
+
+
+Blog:
+![](<ut1/Evidencias/log2.png>)
+
+Intranet:
+![](<ut1/Evidencias/log3.png>)
+
+Despues de esto mandaremos algo de trafico a la pagina web principal para despues poder ver que respuestas da los logs echos.
+
+![](<ut1/Evidencias/trafico.png>)
+Hacemos un tail para ver los registros de nuestro archivo log 
+
+![](<ut1/Evidencias/estadisticas.png>)
+Por ultimos almacenaremos todo esto en la intranet con el goaccess, para q nos enseñe las estadisticas
+
+Curso: ASIR 2
+Modulo: SRI
+Fdo: Bosco Perez Sañudo
