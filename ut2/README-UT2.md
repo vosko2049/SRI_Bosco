@@ -3,7 +3,7 @@
 | Dato | Valor |
 |---|---|
 | Nombre | Bosco Pérez Sañudo |
-| Nº de orden (15) | |
+| Nº de orden | 15 |
 | Empresa | Autoescuela Semáforo |
 | Dominio | semaforo.test |
 
@@ -13,10 +13,10 @@
 
 | Equipo | Hostname | MAC | Dirección IP | Cómo la obtiene |
 |---|---|---|---|---|
-| Router pfSense (LAN) | — | | 192.168.15.1 | Manual |
-| Servidor DHCP | dhcp-bosco | | 192.168.15.2 | Manual (fija) |
-| Equipo de dirección (Windows) | win-bosco | | | |
-| Puesto de trabajo (Linux) | lin-bosco | | | |
+| Router pfSense (LAN) | — | 00:0C:29:CE:67:B5 | 192.168.15.1 | Manual |
+| Servidor DHCP | dhcp-bosco | 00:0C:29:75:C9:89 | 192.168.15.2 | Manual (fija) |
+| Equipo de dirección (Windows) | win-bosco | 00:0C:29:45:E9:82 | 192.168.15.18 | Reserva |
+| Puesto de trabajo (Linux) | lin-bosco | 00:0C:29:23:F2:F7 |  | Dinámico |
 
 | Parámetro | Valor |
 |---|---|
@@ -29,7 +29,7 @@
 
 ![E1](evidencias/E1.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** Esta captura muestra las configuraciones del servidor DHCP
 
 ## 2. Configuración básica · CE 2.d
 
@@ -37,15 +37,15 @@ La configuración completa está en [kea/kea-dhcp4.conf](kea/kea-dhcp4.conf).
 
 ![E2](evidencias/E2.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** Valida los errores que pudiera haber en el archivo de configuración
 
 ![E3](evidencias/E3.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** Muestra las redes del cliente linux
 
 ![E4](evidencias/E4.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** Muestra la configuracion de la targeta de red (ens33)
 
 ## 3. Asignaciones dinámicas y estáticas · CE 2.e
 
