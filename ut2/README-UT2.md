@@ -51,11 +51,12 @@ La configuración completa está en [kea/kea-dhcp4.conf](kea/kea-dhcp4.conf).
 
 ![E5](evidencias/E5.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** La configuración basica del Windows cliente
 
-![E6](evidencias/E6.png)
+![E6](evidencias/E6.1.png)
+![E6](evidencias/E6.2.png)
 
-**Qué demuestra:** <una frase>
+**Qué demuestra:** el journalctl de los registros de asignación de ayer 25/11/2026
 
 ## 4. Opciones adicionales · CE 2.f
 
